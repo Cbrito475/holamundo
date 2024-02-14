@@ -1,0 +1,22 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>🧑‍🚀 Hello, Astronaut!</h1>
+			<h1><strong>Bienvenido al mundo de la generación de Señales: Un Viaje Tecnológico</strong></h1>
+    <p>Bienvenido a este blog, donde exploraremos el fascinante mundo de la <strong>generación de señales</strong> desde una perspectiva tecnológica. A lo largo de nuestras publicaciones, descubriremos los diferentes tipos de generadores de señales, cómo han evolucionado a lo largo del tiempo, y cómo se utilizan en diversas aplicaciones en la actualidad. ¡Adelante, sumérgete en el mundo de la generación de señales y descubre cómo esta tecnología está impulsando nuestra vida cotidiana!</p>
+		</main>
+		<Footer />
+	</body>
+</html>
